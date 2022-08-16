@@ -47,7 +47,7 @@ img {
 .main {
 	display: flex;
 	flex-direction: row-reverse;
-	width: 1240px;
+	width: 1440px;
 	height: 1754px;
 	margin: 0 auto;
 }
@@ -167,7 +167,10 @@ img {
 .work__list {
 	padding: 0;
 	margin-left: 20px;
-	margin-bottom: 10px;
+}
+
+.work__methodist {
+	margin-bottom: 20px;
 }
 
 .work__list-item {
