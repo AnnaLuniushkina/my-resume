@@ -1,7 +1,7 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	background-color: #f5f7fa;
-	box-sizing: border-box;
+	margin: 0;
 }
 
 p,
@@ -143,7 +143,7 @@ img {
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 20px;
-	color: #fb6d3a;
+	color: #000000;
 }
 
 .work__period {
@@ -184,8 +184,12 @@ img {
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 20px;
-	color: #fb6d3a;
+	color: #000000;
 	margin-bottom: 10px;
+}
+
+.education__goit {
+	margin-bottom: 30px;
 }
 
 .education__specialty,
@@ -224,9 +228,15 @@ img {
 }
 
 .contacts,
-.tech-skills {
+.tech-skills,
+.soft-skills,
+.language {
 	margin-left: 40px;
 	margin-bottom: 50px;
+}
+
+.language {
+	margin-left: 40px;
 }
 
 .sidebar__title {
@@ -239,26 +249,20 @@ img {
 }
 
 .tech-skills__list,
-.soft-skills__list {
+.soft-skills__list,
+.language-skills__list {
 	padding: 0;
 	margin-left: 19px;
 }
 
+.contacts__item,
 .contacts__link,
-.tech-skills__text,
-.soft-skills__text {
+.tech-skills__item,
+.soft-skills__item,
+.language-skills__item {
 	color: #ffffff;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 24px;
-}
-
-.soft-skills {
-	margin-left: 40px;
-}
-
-.soft-skills__item,
-.tech-skills__item {
-	color: #fb6d3a;
 }
