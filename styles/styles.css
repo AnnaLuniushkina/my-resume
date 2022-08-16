@@ -39,7 +39,7 @@ img {
 	font-size: 22px;
 	line-height: 27px;
 	color: #000000;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 /* main styles */
@@ -218,8 +218,11 @@ img {
 
 .sidebar {
 	background-color: #2d6c70;
+}
+
+.sidebar__container {
+	width: 500px;
 	padding-top: 40px;
-	width: 400px;
 }
 
 .sidebar__photo {
