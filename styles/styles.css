@@ -160,7 +160,7 @@ img {
 	font-size: 20px;
 	line-height: 15px;
 	color: #666666;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .line {
@@ -177,10 +177,6 @@ img {
 
 .work__methodist {
 	margin-bottom: 30px;
-}
-
-.work__period-methodist {
-	margin-bottom: 20px;
 }
 
 .work__list-item {
