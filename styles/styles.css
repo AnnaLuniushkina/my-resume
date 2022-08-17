@@ -31,7 +31,7 @@ img {
 }
 
 .section {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .title {
@@ -57,7 +57,7 @@ img {
 
 .main-content {
 	background-color: #ffffff;
-	padding: 40px 60px;
+	padding: 50px 60px;
 }
 /* about styles  */
 
@@ -103,10 +103,10 @@ img {
 
 .projects__link-page {
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 600;
 	font-size: 26px;
 	line-height: 24px;
-	color: #777777;
+	color: #222222;
 }
 
 .projects__link {
@@ -114,7 +114,7 @@ img {
 	font-weight: normal;
 	font-size: 26px;
 	line-height: 24px;
-	color: #595959;
+	color: #222222;
 
 	margin-right: 15px;
 }
