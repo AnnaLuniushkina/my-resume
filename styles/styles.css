@@ -31,16 +31,18 @@ img {
 }
 
 .section {
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .title {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 22px;
-	line-height: 27px;
-	color: #000000;
-	margin-bottom: 20px;
+	font-size: 38px;
+	line-height: 1.5;
+	color: #ffffff;
+	background-color: #2d6c70;
+	margin-bottom: 30px;
+	border-radius: 5px;
 }
 
 /* main styles */
@@ -49,40 +51,44 @@ img {
 	display: flex;
 	flex-direction: row-reverse;
 	width: 1440px;
-	height: 1754px;
+	/* height: 1754px; */
 	margin: 0 auto;
 }
 
 .main-content {
 	background-color: #ffffff;
-	padding: 50px 90px;
+	padding: 40px 60px;
 }
 /* about styles  */
 
 .about__name {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 45px;
-	line-height: 55px;
-	color: #000000;
-	margin-bottom: 20px;
+	font-size: 50px;
+	line-height: 1.5;
+	color: #ffffff;
+	background-color: #2d6c70;
+	border-radius: 5px;
+	margin-bottom: 30px;
 }
 
 .about__position {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 17px;
-	color: #000000;
-	margin-bottom: 20px;
+	font-size: 26px;
+	line-height: 1.5;
+	color: #ffffff;
+	background-color: #2d6c70;
+	border-radius: 5px;
+	margin-bottom: 50px;
 }
 
 .about__description {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
-	color: #595959;
+	font-size: 24px;
+	/* line-height: 24px; */
+	color: #444444;
 }
 
 /* project styles */
@@ -92,21 +98,21 @@ img {
 }
 
 .item {
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
 
 .projects__link-page {
 	font-style: normal;
-	font-weight: 600;
-	font-size: 20px;
+	font-weight: normal;
+	font-size: 26px;
 	line-height: 24px;
-	color: #595959;
+	color: #777777;
 }
 
 .projects__link {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 26px;
 	line-height: 24px;
 	color: #595959;
 
@@ -116,17 +122,16 @@ img {
 .projects__tech {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 26px;
 	line-height: 24px;
-	color: #000000;
+	color: #777777;
 }
 
 .projects__item-text {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
-	color: #595959;
+	font-size: 24px;
+	color: #444444;
 }
 
 /* work styles */
@@ -134,34 +139,34 @@ img {
 .work__position {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 28px;
 	line-height: 20px;
 	color: #000000;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 .work__organization {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 24px;
+	/* line-height: 20px; */
 	color: #000000;
+	margin-bottom: 15px;
 }
 
 .work__period {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 15px;
-	color: #a8a8a8;
+	color: #666666;
 	margin-bottom: 10px;
 }
 
 .line {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 12px;
-	line-height: 15px;
+	font-size: 20px;
 	color: black;
 }
 
@@ -171,15 +176,18 @@ img {
 }
 
 .work__methodist {
+	margin-bottom: 30px;
+}
+
+.work__period-methodist {
 	margin-bottom: 20px;
 }
 
 .work__list-item {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
-	color: #595959;
+	font-size: 24px;
+	color: #444444;
 }
 
 /* Education */
@@ -187,8 +195,7 @@ img {
 .education__organization {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 28px;
 	color: #000000;
 	margin-bottom: 10px;
 }
@@ -199,20 +206,23 @@ img {
 
 .education__specialty,
 .education__qualification {
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
+	font-weight: 500;
+	font-size: 24px;
 	line-height: 17px;
 	color: #000000;
+}
+
+.educational__line {
+	font-size: 28px;
 }
 
 .education__period {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
-	line-height: 15px;
-	color: #a8a8a8;
+	font-size: 20px;
+	color: #666666;
 }
 
 /* sidebar styles */
@@ -222,7 +232,7 @@ img {
 }
 
 .sidebar__container {
-	width: 400px;
+	width: 450px;
 	padding-top: 40px;
 }
 
@@ -248,12 +258,15 @@ img {
 }
 
 .sidebar__title {
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #2d6c70;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 22px;
-	line-height: 27px;
-	margin-bottom: 10px;
+	font-size: 38px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	border-radius: 5px;
 }
 
 .tech-skills__list,
@@ -271,6 +284,6 @@ img {
 	color: #ffffff;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 24px;
+	line-height: 1.5;
 }
